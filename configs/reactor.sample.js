@@ -173,6 +173,7 @@ export default {
                     objectIViewer: ['BasicOptionView'],
                     allowUserDefinedValue: 1,
                     options: [
+                        {label: 'blazegraph', value: 'blazegraph'},
                         {label: 'ClioPatria', value: 'cliopatria'},
                         {label: 'Virtuoso', value: 'virtuoso'},
                         {label: 'Stardog', value: 'stardog'},
