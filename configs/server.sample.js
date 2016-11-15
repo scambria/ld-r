@@ -4,7 +4,7 @@ export default {
     serverPort: [4000],
     sparqlEndpoint: {
         'generic': {
-            host: 'localhost', port: 8890, path: '/sparql', endpointType: 'virtuoso'
+            host: 'blazegraph', port: 9999, path: '/sparql', endpointType: 'blazegraph'
         },
         //Note: if graphName is not specified, the identifer used for configuration will be used as graphName
         //Example config for connecting to a Stardog triple store

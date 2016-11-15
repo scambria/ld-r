@@ -1,8 +1,8 @@
 export default {
     //full page title
-    appFullTitle: ['Linked Data Reactor'],
+    appFullTitle: ['Provesense'],
     //short page title
-    appShortTitle: ['LD-R'],
+    appShortTitle: ['Provesense'],
 
     //Default Dataset under observation, if not set , will consider all existing graph names
     defaultDatasetURI: [''],
