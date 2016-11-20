@@ -98,6 +98,12 @@ export default {
             }
 
             break;
+        case 'blazegraph':
+            outputObject.uri = 'http://' + endpointParameters.httpOptions.host + ':' + endpointParameters.httpOptions.port + endpointParameters.httpOptions.path;
+            outputObject.params['query'] = query;
+            outputObject.params['Accept'] = outputFormat;
+
+            break;
         default:
             outputObject.uri = 'http://' + endpointParameters.httpOptions.host + ':' + endpointParameters.httpOptions.port + endpointParameters.httpOptions.path;
             outputObject.params['query'] = query;
