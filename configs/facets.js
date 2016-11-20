@@ -14,7 +14,7 @@ export default {
             ],
             config: { 
             }
-	}
+	},
         //Configuration Manager: change the graph name if you use another name in your general.js config
         'http://ld-r.org/configurations': {
             list: [
